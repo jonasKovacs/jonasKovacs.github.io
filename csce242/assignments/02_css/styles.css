@@ -1,0 +1,60 @@
+/* Structure */
+body {
+    background: url("images/water-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffffc4;
+    border-radius: 15px;
+}
+
+#content {
+    width: 70%;
+    padding: 5px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.678);
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin:auto;
+    border-radius: 10px;
+}
+
+/* Navigation */
+#main-nav ul {
+    padding-left: 0;
+    text-align: center;
+    background-color: #08678cd5;
+}
+#main-nav li {
+    width: 20%;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+#main-nav a {
+    text-decoration: none;
+    background-color: #67B8DE;
+    color: #011126;
+    padding: 3px;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 5px;
+    border: #011126 1px solid;
+}
+#main-nav a:hover {
+    background-color: #91C9E8;
+    color: rgb(13, 109, 88);
+}
+
+/* Typography */
+h1 {
+    color: #032859;
+    text-align: center;
+}
+
+p {
+    color: #032859;
+    text-align: left;
+}
